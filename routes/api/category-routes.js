@@ -22,8 +22,8 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   // create a new category
   Category.create(req.body).then(resp=>{
-    res.json(resp)
-  })
+    res.json(resp);
+  });
 });
 
 router.put('/:id', (req, res) => {
@@ -33,8 +33,8 @@ router.put('/:id', (req, res) => {
   },{
     where: {id:req.params.id}
   }).then(resp=>{
-    res.json(resp)
-  })
+    res.json(resp);
+  });
 });
 
 router.delete('/:id', (req, res) => {
