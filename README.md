@@ -17,4 +17,4 @@ This application is a backend server that uses MySQL, and is manipulated with ja
 
 ## Usage
 
-Run 'node server.js' to start the server
+Run 'npm start' to start the server
