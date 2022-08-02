@@ -15,6 +15,10 @@ This application is a backend server that uses MySQL, and is manipulated with ja
 8. Run 'npm run seed' to seed the database.
 
 
+See this link for a detailed walkthrough: https://drive.google.com/file/d/1hdUgp4vxri3koYUd1ZOdCmYGXEJ0Yc-h/view
+
+
 ## Usage
 
-Run 'npm start' to start the server
+Run 'npm start' to start the server. 
+Then drag and drop the insomnia.json file found in the root directory fo the project into an insomnia collection and it should import, allowing you to run and test all of the routes on the server. 
